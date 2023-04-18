@@ -16,10 +16,25 @@
 
 #kucra {
     font-size: large;
+    font-weight: bold;
     
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
+}
+
+#ecran {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+}
+
+#texte {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
