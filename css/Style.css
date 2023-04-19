@@ -137,7 +137,21 @@
 }
 
 #text-s-section {
+    display: flex;
+    flex-direction: column;  
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#text-s-section h1 {
+    font-weight: 1000;
+}
+
+#text-s-section p {
+    padding-top: 10px;
+    /* display: flex;
+    width: 500px;
+    text-align: center; */
 }
 
 .container-card {
@@ -166,10 +180,14 @@
 .card p {
     text-align: center;
     padding: 20px;
-
 }
 
 .icone-card {
     font-size: 50px;
     text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
 }
