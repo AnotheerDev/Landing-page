@@ -131,3 +131,45 @@
 }
 
 /* css de la 2d section */
+
+.second-section  {
+    height: 100vh;
+}
+
+#text-s-section {
+    text-align: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
+    width: 375px;
+    height: 350px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card h2 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.card p {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.icone-card {
+    font-size: 50px;
+    text-align: center;
+}
