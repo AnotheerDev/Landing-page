@@ -7,6 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* css de la 1ere section */
 
 .global_header {
     height: 100vh;
@@ -31,12 +32,33 @@
     flex-direction: row;
     color: aliceblue;
     align-items: center;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
 
+#menu a {
+    color: white;
+    font-weight: 550;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: grey;
+    transition: 0.4s;
 }
 
 #icone {
     display: flex;
     align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+#icone :hover {
+    color: grey;
+    transition: 0.4s;
 }
 
 .bloc-central {
@@ -47,7 +69,6 @@
     padding-left: 150px;
     padding-right: 150px;
 }
-
 
 #illu {
     display: flex;
@@ -108,3 +129,5 @@
     color: aliceblue;
     border: none;
 }
+
+/* css de la 2d section */
