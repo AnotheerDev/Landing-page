@@ -1,31 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 *{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
 .global_header {
-    display: flex;
     height: 100vh;
     background-image: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-#kucra {
-    font-size: large;
-    font-weight: bold;
-    
+#navbar p {
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
+    color: aliceblue;
+    justify-content: space-evenly;
 }
 
-#ecran {
+#menu {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    align-items: center;
+}
+
+#icone {
+    display: flex;
+    align-items: center;
+}
+
+.bloc-central {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 6%;
+}
+
+
+#illu {
     display: flex;
     align-items: center;
     width: 700px;
@@ -37,4 +60,34 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+#texte h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    /* width: 500px;
+    height: 300px; */
+}
+
+#texte p {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+#bar-email {
+    padding: 8px;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+#sub {
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    background-color: rgb(127, 140, 255);
+    color: aliceblue;
 }
